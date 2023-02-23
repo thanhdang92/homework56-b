@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    background-image: linear-gradient(rgb(241, 141, 141), white);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    width: 100%;
+    max-width: 960px;
+    border: 1px solid black;
+    background-image: linear-gradient(rgb(48, 213, 150), rgb(215, 176, 176));
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 8px 8px rgb(89, 81, 97);
+}
+.header {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.header img {
+    float: left;
+    width: 10%;
+    cursor: pointer;
+}
+
+.apps {
+    margin: 50px;
+}
+
+.header-title {
+    width: 85%;
+    float: left;
+}
+.header-title h1{
+    color: rgb(239, 124, 48);
+    text-shadow: 2px 2px red ;
+    margin: 0 0 0 40px;
+
+}
+.header-title h2 {
+    color: rgb(47, 177, 40);
+    margin: 10px 0 0 40px;
+}
+.container {
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+
+}
+.content-left {
+    width: 65%;
+    float: left;
+    padding-right: 20px;
+    border-right: 2px solid red;
+}
+.content-right {
+    width: 35%;
+    float: left;
+    padding-left: 20px;
+}
+.content-img {
+    width: 100%;
+    float: left;
+    overflow: hidden;  
+}
+.content-img img {
+    width: 30%;
+    float: left;
+    margin: 0 15px 0px 0;
+    /* height: 150px; */
+}
+.content-img p {
+    margin: 0;
+}
+.content-right ul {
+    padding-left: 20px ;
+}
+.a-red {
+    color: red;
+    font-weight: bold;
+}
+.a-green {
+    color: green;
+    font-weight: bold;
+}
+.footer {
+    float : right;
+}
